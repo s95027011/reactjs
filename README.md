@@ -21,15 +21,21 @@
 ## Django
     python manage.py startproject XXXX
     python manage.py startapp OOOO
-    python manage.py makemigrations
-    python manage.py migrate
-    python manage.py runserver
     
     py manage.py createsuperuser
+
+### 資料庫 + 執行
+    python manage.py makemigrations
+    python manage.py migrate
+    
+    python manage.py runserver
 
 ## react js 
     npm init -y
     npm install reat-scripts react react-dom
-    npm start
     npm install semantic-ui-react react-router-dom
     # npm install firebase
+### 安裝 + 執行
+    npm install
+
+    npm start
